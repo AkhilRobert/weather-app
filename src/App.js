@@ -1,6 +1,18 @@
+import { Route } from 'react-router-dom';
+import Index from './pages/index';
+import WeatherDetails from './pages/weather-details/WeatherDetails';
+
 function App() {
   return (
-    <div>Hello World</div>
+    <>
+      <Route path={'/'}>
+        <Index />
+      </Route>
+
+      <Route path={'/:id'}>
+        <WeatherDetails />
+      </Route>
+    </>
   );
 }
 
