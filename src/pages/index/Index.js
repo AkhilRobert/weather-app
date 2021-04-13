@@ -19,8 +19,11 @@ function Index() {
       console.log(token);
       axios
         .get(
-          `http://127.0.0.1:8000/https://www.metaweather.com/api/location/search/?query=${keyword}`,
-          { cancelToken: token.token }
+          // using proxy server for fixing cors error
+          `https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/search/?query=${keyword}`,
+          {
+            cancelToken: token.token,
+          }
         )
         .then((res) => {
           setResults(res);

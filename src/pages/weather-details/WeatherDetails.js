@@ -22,7 +22,8 @@ function WeatherDetails() {
   useEffect(() => {
     axios
       .get(
-        `http://127.0.0.1:8000/https://www.metaweather.com/api/location/${match.params.id}/`
+        // using proxy server to fix cors error
+        `https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/${match.params.id}/`
       )
       .then((res) => {
         setWeatherData(res.data);
