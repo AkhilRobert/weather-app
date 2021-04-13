@@ -23,20 +23,20 @@ function WeatherDetails() {
         <div className={styles.container__left_data_location}>
           <p className={styles.date_location__date}>12/12/12</p>
           <p className={styles.date_location__location}>
-            Africa
             <i
-              className="fas fa-map-marker-alt "
-              style={{ paddingLeft: '12px' }}
+              className="fas fa-map-marker-alt"
+              style={{
+                paddingRight: '12px',
+                fontSize: '18px',
+                color: 'grey',
+              }}
             />
+            Africa
           </p>
         </div>
       </div>
       <div className={styles.container__right}>
         <div className={styles.right__container_margin}>
-          <div className={styles.unit__converter_container}>
-            <p className={[styles.unit, styles.active].join(' ')}>&#8451;</p>
-            <p className={styles.unit}>&#8457;</p>
-          </div>
           <div className={styles.right__inner_container}>
             <div className={styles.weather__week}>
               <div className={styles.weather__card}>
