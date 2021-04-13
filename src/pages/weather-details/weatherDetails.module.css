@@ -7,7 +7,7 @@
 }
 
 .container__left {
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   height: initial;
   flex: 1;
   display: flex;
@@ -29,6 +29,11 @@
 
 .container__left_temperature {
   font-size: 8.2rem;
+}
+
+.container__left_temperature::after {
+  content: '\00B0 C';
+  font-size: 3.1rem;
 }
 
 .container__left_weather_name {
