@@ -1,3 +1,135 @@
 .container {
+  background-color: var(--background-color);
+  height: initial;
+  display: flex;
+  color: #fff;
+  min-height: 100vh;
+}
 
+.container__left {
+  background-color: var(--primary-color);
+  height: initial;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__right {
+  background-color: var(--background-color);
+  width: 100%;
+  flex: 2;
+}
+
+.container__left_image {
+  width: 45%;
+  margin-top: 240px;
+}
+
+.container__left_temperature {
+  font-size: 8.2rem;
+}
+
+.container__left_weather_name {
+  font-size: 32px;
+}
+
+.container__left_data_location {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 140px;
+  margin-bottom: 100px;
+}
+
+.date_location__date {
+  font-size: 14px;
+}
+
+.date_location__location {
+  font-size: 14px;
+}
+
+.right__inner_container {
+  width: 90%;
+  background-color: var(--background-color);
+  margin: 0 auto;
+}
+
+.weather__week {
+  display: flex;
+  justify-content: center;
+}
+
+.weather__card {
+  width: 120px;
+  background-color: var(--primary-color);
+  margin: 0 12px;
+}
+
+.weather__card_inner {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__inner_img {
+  width: 80%;
+}
+
+.temp__max_min {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0 5px;
+}
+
+.max__temp {
+  font-size: 14px;
+}
+
+.min__temp {
+  font-size: 14px;
+}
+
+.unit__converter_container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 25px 40px 0;
+  margin-right: 100px;
+}
+
+.unit {
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #595576;
+  margin: 0 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.unit.active {
+  background-color: dimgrey;
+  color: black;
+}
+
+.highlight__container {
+}
+
+.highlight {
+  padding: 0 40px;
+  margin: 50px 0;
+}
+
+.highlight__container_content {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 40px;
+}
+
+.right__container_margin {
+  margin: 8% 0;
 }

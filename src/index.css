@@ -1,6 +1,6 @@
 :root {
-  --background-color: #100D1D;
-  --primary-color: #1E213A;
+  --background-color: #100d1d;
+  --primary-color: #1e213a;
 }
 
 * {
@@ -11,6 +11,7 @@
 
 html {
   font-size: 100%;
+  background-color: var(--background-color);
 }
 
 li {
@@ -32,4 +33,8 @@ a {
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--background-color);
+}
+
+html {
+  font-family: 'Raleway', sans-serif;
 }

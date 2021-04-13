@@ -1,0 +1,38 @@
+.container {
+  background-color: var(--primary-color);
+}
+
+.inner__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.wind__direction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wind__direction_text {
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+.wind__image {
+  width: 40px;
+}
+
+.wind__status {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+
+.wind__speed {
+  padding: 20px 0;
+  font-size: 56px;
+  font-weight: bolder;
+}

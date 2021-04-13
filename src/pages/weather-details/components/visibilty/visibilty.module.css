@@ -1,0 +1,22 @@
+.container {
+  background-color: var(--primary-color);
+}
+
+.inner__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.distance {
+  margin: 20px 0;
+  font-size: 56px;
+  font-weight: bolder;
+}
+
+.visibilty {
+  font-size: 18px;
+  font-weight: 400;
+}

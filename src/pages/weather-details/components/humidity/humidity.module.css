@@ -1,0 +1,68 @@
+.container {
+  background-color: var(--primary-color);
+}
+
+.inner__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.humidity {
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.percentage {
+  padding-top: 20px;
+  font-size: 56px;
+  font-weight: bolder;
+}
+
+.percentage_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+}
+
+.slider {
+  display: block;
+  -webkit-appearance: none;
+  background-color: #bdc3c7;
+  height: 5px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  padding: 4px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+.slider::-moz-range-thumb {
+  -webkit-appearance: none;
+}
+
+.limit {
+  position: absolute;
+}
+
+.start {
+  left: 20px;
+  top: -25px;
+}
+
+.middle {
+  top: -25px;
+}
+
+.end {
+  right: 20px;
+  top: -25px;
+}

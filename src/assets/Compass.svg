@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="483" height="476" viewBox="0 0 483 476">
+  <g id="Compass_Fixed" data-name="Compass Fixed" transform="translate(-661 -254)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(661 254)" fill="#ccc" stroke="#707070" stroke-width="1">
+      <ellipse cx="241.5" cy="238" rx="241.5" ry="238" stroke="none"/>
+      <ellipse cx="241.5" cy="238" rx="241" ry="237.5" fill="none"/>
+    </g>
+    <path id="Path_1" data-name="Path 1" d="M204.984-765.34c-1.176.571-4.278,6.314-53.08,98.331C94.262-558.368,98.5-566.9,100.892-564.346a5.034,5.034,0,0,0,4.848,1.612c.57-.134,23.706-10.982,51.44-24.012l50.406-23.777,50.656,23.743c28.019,13.131,51.226,23.844,51.939,23.911a5,5,0,0,0,4.6-2.082c1.6-2.452,3.743,1.847-36.61-73.95-70.013-131.377-66.8-125.433-68.159-126.306A5.225,5.225,0,0,0,204.984-765.34Z" transform="translate(694.906 1156.258)" fill="#f7f7f7"/>
+  </g>
+</svg>

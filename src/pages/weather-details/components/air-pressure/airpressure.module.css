@@ -1,0 +1,22 @@
+.container {
+  background-color: var(--primary-color);
+}
+
+.inner__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.air__pressure {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.pressure__value {
+  margin: 20px 0;
+  font-size: 60px;
+  font-weight: bolder;
+}
