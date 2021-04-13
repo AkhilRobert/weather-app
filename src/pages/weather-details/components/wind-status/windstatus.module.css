@@ -36,3 +36,7 @@
   font-size: 56px;
   font-weight: bolder;
 }
+
+.wind__speed::after {
+  content: ' mph';
+}

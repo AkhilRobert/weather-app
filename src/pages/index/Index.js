@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './index.module.css';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import SearchLoader from '../../components/search-loader/SearchLoader';
 
 function Index() {
   const [active, setActive] = useState(false);
@@ -73,7 +74,7 @@ function Index() {
     }
 
     if (loading) {
-      content = <p className={styles.loading}>Loading</p>;
+      content = <SearchLoader />;
     }
 
     return content;

@@ -7,17 +7,17 @@ function WindStatus(props) {
     <div className={styles.container}>
       <div className={styles.inner__container}>
         <h1 className={styles.wind__status}>Wind Status</h1>
-        <p className={styles.wind__speed}>7 mph</p>
+        <p className={styles.wind__speed}>{Math.round(props.value)}</p>
         <div className={styles.wind__direction}>
           <img
             src={Compass}
             alt="Compass"
             className={styles.wind__image}
             style={{
-              transform: 'rotate(200deg)',
+              transform: `rotate(${props.windDirection}deg)`,
             }}
           />
-          <p className={styles.wind__direction_text}>wsw</p>
+          <p className={styles.wind__direction_text}>{props.compass}</p>
         </div>
       </div>
     </div>

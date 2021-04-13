@@ -6,15 +6,14 @@ function Humidity(props) {
     <div className={styles.container}>
       <div className={styles.inner__container}>
         <h1 className={styles.humidity}>Humidity</h1>
-        <p className={styles.percentage}>99%</p>
+        <p className={styles.percentage}>{props.value}</p>
       </div>
       <div className={styles.percentage_container}>
         <input
           type="range"
           className={styles.slider}
           style={{
-            background:
-              'linear-gradient(to right, #FFEB64, #FFEB64 20%, #BDC3C7 20%, #BDC3C7 100%)',
+            background: `linear-gradient(to right, #FFEB64, #FFEB64 ${props.value}%, #BDC3C7 ${props.value}%, #BDC3C7 100%)`,
           }}
         />
         <p className={[styles.limit, styles.start].join(' ')}>0</p>

@@ -16,6 +16,10 @@
   font-weight: bolder;
 }
 
+.distance::after {
+  content: ' miles';
+}
+
 .visibilty {
   font-size: 18px;
   font-weight: 400;

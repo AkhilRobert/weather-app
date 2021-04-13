@@ -6,7 +6,7 @@ function AirPressure(props) {
     <div className={styles.container}>
       <div className={styles.inner__container}>
         <h1 className={styles.air__pressure}>Air Pressure</h1>
-        <p className={styles.pressure__value}>998 mb</p>
+        <p className={styles.pressure__value}>{Math.round(props.value)}</p>
       </div>
     </div>
   );

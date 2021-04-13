@@ -6,7 +6,7 @@ function Visibility(props) {
     <div className={styles.container}>
       <div className={styles.inner__container}>
         <h1 className={styles.visibilty}>Visibilty</h1>
-        <p className={styles.distance}>2.99 miles</p>
+        <p className={styles.distance}>{Math.round(props.value)}</p>
       </div>
     </div>
   );

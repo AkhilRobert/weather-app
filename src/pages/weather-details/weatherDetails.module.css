@@ -85,6 +85,7 @@
 
 .card__inner_img {
   width: 80%;
+  margin: 25px 0;
 }
 
 .temp__max_min {
@@ -98,8 +99,16 @@
   font-size: 14px;
 }
 
+.max__temp::after {
+  content: '\00B0 C';
+}
+
 .min__temp {
   font-size: 14px;
+}
+
+.min__temp::after {
+  content: '\00B0 C';
 }
 
 .unit__converter_container {
